@@ -115,6 +115,20 @@
 								</div>
 							</section>
 					</div>
+<script>
+  (function() {
+    var fess = document.createElement('script');
+    fess.type = 'text/javascript';
+    fess.async = true;
+    fess.src = '//<Server Name>/js/ss/fess-ss.min.js';
+    fess.charset = 'utf-8';
+    fess.setAttribute('id', 'fess-ss');
+    fess.setAttribute('fess-url', '//<Server Name>/json');
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fess, s);
+  })();
+</script>
+<fess:search></fess:search>
 
 				<!-- Footer -->
 					<section id="footer">
