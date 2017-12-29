@@ -115,24 +115,13 @@
 								</div>
 							</section>
 					</div>
-<script>
-  (function() {
-    var fess = document.createElement('script');
-    fess.type = 'text/javascript';
-    fess.async = true;
-    fess.src = '//<Server Name>/js/ss/fess-ss.min.js';
-    fess.charset = 'utf-8';
-    fess.setAttribute('id', 'fess-ss');
-    fess.setAttribute('fess-url', '//<Server Name>/json');
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(fess, s);
-  })();
-</script>
-<fess:search></fess:search>
 
 				<!-- Footer -->
 					<section id="footer">
 						<div class="container">
+
+<fess:search></fess:search>
+
 							<ul class="copyright">
 								<li>&copy; all rights reserved.</li></li>
 							</ul>
@@ -149,6 +138,18 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+      <script>
+        (function() {
+          var fess = document.createElement('script');
+          fess.type = 'text/javascript';
+          fess.async = true;
+          fess.src = '//<Server Name>/js/ss/fess-ss.min.js';
+          fess.charset = 'utf-8';
+          fess.setAttribute('id', 'fess-ss');
+          fess.setAttribute('fess-url', '//<Server Name>/json');
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(fess, s);
+        })();
+      </script>
 </body>
 </html>
